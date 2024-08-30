@@ -97,6 +97,7 @@ header img{
 }
 .home_page{
     background-color: white;
+    width: 100%;
 }
 .home_page h1{
     padding-top: 40px;
@@ -104,8 +105,8 @@ header img{
     font-weight: 400;
 }
 .sty {
-    width: 240px;
-    height: 450px;
+    width: 100%;
+    height: 440px;
     text-align: center;
     padding-top: 10px;
     border: 1px solid lightgray;
@@ -125,6 +126,8 @@ header img{
 }
 .shop{
     border-radius: 20px;
+    width: 220px;
+    height: 300px;
 }
 .sty h3{
     font-size: 24px;
@@ -387,4 +390,226 @@ footer{
     padding-right:15px ;
     margin-left:auto ;
     margin-right:auto ;
+}
+@media(width<1200px){
+    .ban_text{
+        position: absolute;
+        top: 16vh;
+        left: 50%;
+        padding: 10px ;
+        align-items: left;
+    }
+    .sty {
+        width: 220px;
+        height: 380px;
+        text-align: center;
+        padding-top: 10px;
+        margin-left: 0px;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        line-height: 1.5;
+        background-color: #F1F0EE;
+        box-shadow: 10px 10px 10px grey;
+    }
+    .shop{
+        width: 180px;
+        height: 220px;
+    }
+    .btn-2{
+        font-size: 13px;
+        padding: 9px;
+        border: 1px solid #30261C;
+        border-radius: 20px;
+        color: white;
+        background-color: #30261C;
+    }
+    .banner2 p{
+        position: absolute;
+        top: 255vh;
+        left: 60px;
+        font-size: 46px;
+    }
+    .banner2 .btn-3{
+        position: absolute;
+        top: 275vh;
+        left: 60px;
+        font-size: 18px;
+    }
+    .ban_3 h2{
+        position: absolute;
+        top: 375vh;
+        left: 30px;
+    }
+    .ban_3 p{
+        position: absolute;
+        top: 382vh;
+        left: 30px;
+    }
+    .btn-4{
+        position: absolute;
+        top: 390vh;
+        left: 30px;
+
+    }
+    .btn-5{
+        position: absolute;
+        top: 390vh;
+        left: 340px;
+    }
+    .container{
+        width: 1170px;
+    }
+
+}
+@media(width<980px){
+    .ban_text{
+        position: absolute;
+        top: 14vh;
+        left: 50%;
+        padding: 10px ;
+        align-items: left;
+    }
+    .ban_text h2{
+        font-size: 26px;
+    }
+    .ban_text h1{
+        font-size: 30px;
+    }
+    .sty {
+        width: 175px;
+        height: 280px;
+        text-align: center;
+        padding-top: 10px;
+        margin-left: -35px;
+    }
+    .shop{
+        width: 120px;
+        height: 130px;
+    }
+    .sty h3{
+        font-size: 20px;
+    }
+    .sty p{
+        font-size: 10px;
+    }
+    .sty1 p{
+        font-size: 16px;
+    }
+    .btn-2{
+        font-size: 10px;
+        padding: 7px;
+        border: 1px solid #30261C;
+        border-radius: 20px;
+        color: white;
+        background-color: #30261C;
+    }
+    .banner2 p{
+        position: absolute;
+        top: 209vh;
+        left: 40px;
+        font-size: 36px;
+    }
+    .banner2 .btn-3{
+        position: absolute;
+        top: 223vh;
+        left: 40px;
+        font-size: 16px;
+    }
+    
+    .ban_3 h2{
+        position: absolute;
+        top: 318vh;
+        left: 30px;
+    }
+    .ban_3 p{
+        position: absolute;
+        top: 323vh;
+        left: 30px;
+    }
+    .btn-4{
+        position: absolute;
+        top: 330vh;
+        left: 30px;
+
+    }
+    .btn-5{
+        position: absolute;
+        top: 330vh;
+        left: 340px;
+        font-size: 14px;
+    }
+    .a{
+        width: 250px;
+        height: 175px;
+        padding-top:10px ;
+        padding-left: 10px;
+    }
+    .b{
+        width: 250px;
+        height: 175px;
+        padding-top:10px ;
+        padding-left: 10px;
+    }
+    .c{
+        width: 250px;
+        height: 175px;
+        padding-top:10px ;
+        padding-left: 10px;
+    }
+    .a1 img{
+        width: 45px;
+        height: 45px;
+    }
+    .a1 p{
+        padding-top:8px ;
+        font-size: 17px;
+    }
+    .a11 p{
+        padding-top: 30px;
+        margin-left: -65px;
+        font-size: 11px;
+        color: grey;
+    }
+    .a12 p{
+        padding-top: 30px;
+        margin-left: -90px;
+        font-size: 11px;
+        color: grey;
+    }
+    .a13 p{
+        padding-top: 30px;
+        margin-left: -120px;
+        font-size: 11px;
+        color: grey;
+    }
+    .og_review p{
+        font-size: 10px;
+    }
+    .container{
+        width: 940px;
+    }
+    .last h2{
+        padding-top: 20px;
+        margin-left: -60px;
+        font-size: 26px;
+    }
+    .last1 h3{
+        padding-top: 60px;
+        font-size: 14px;
+        margin-left: -180px;
+    }
+    .last2 li{
+        padding-top: 20px;
+        margin-left: -180px;
+    }
+    .social p{
+        padding-top: 60px;
+        font-size: 14px;
+        margin-left: -180px;
+    }
+    .last-i p{
+        font-size: 20px;
+        padding-top: 0px;
+    }
+
 }
