@@ -9,6 +9,9 @@ html,body{
     height: 100%;
     background-color: #E2D9C8;
 }
+nav{
+    position: relative;
+}
 nav h2{
     position: absolute;
     top: 20px;
@@ -49,7 +52,7 @@ nav p{
     right: 30px;
 }
 
-header img{
+.banner-1 img{
     width: 100%;
 }
 .ban_text{
@@ -106,7 +109,7 @@ header img{
 }
 .sty {
     width: 100%;
-    height: 440px;
+    height: 340px;
     text-align: center;
     padding-top: 10px;
     border: 1px solid lightgray;
@@ -117,10 +120,13 @@ header img{
 
 }
 .sty:hover{
+    width: 250px;
     cursor: pointer;
     zoom: 120%;
 }
 .sty img {
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     margin: 0 auto;
 }
@@ -168,19 +174,22 @@ header img{
     cursor: pointer;
     text-decoration: underline;
 }
+.banner2{
+    position: relative;
+}
 .banner2 img{
     width: 100%;
 }
-.banner2 p{
+.banner2-al p{
     position: absolute;
-    top: 295vh;
+    top: 20px;
     left: 60px;
     font-size: 56px;
     color: #F1F0EE;
 }
-.banner2 .btn-3{
+.banner2-al .btn-3{
     position: absolute;
-    top: 320vh;
+    top: 150px;
     left: 60px;
     font-size: 20px;
     padding: 10px 30px;
@@ -209,6 +218,7 @@ header img{
     
 }
 .a{
+    position: relative;
     width: 350px;
     height: 200px;
     border: 1px solid #E2D9C8;
@@ -221,70 +231,32 @@ header img{
 .a:hover{
     zoom: 120%;
 }
-.b{
-    width: 350px;
-    height: 200px;
-    border: 1px solid #E2D9C8;
-    border-radius: 20px;
-    padding-top:10px ;
-    padding-left: 10px;
-    background-color: #F1F0EE;
-    box-shadow: 10px 10px 10px gray;
-}
-.b:hover{
-    zoom: 120%;
-}
-.c{
-    width: 350px;
-    height: 200px;
-    border: 1px solid #E2D9C8;
-    border-radius: 20px;
-    padding-top:10px ;
-    padding-left: 10px;
-    background-color: #F1F0EE;
-    box-shadow: 10px 10px 10px gray;
-}
-.c:hover{
-    zoom: 120%;
-}
-.a1 img{
+.a img{
     width: 60px;
     height: 60px;
     border-radius: 50%;
     padding: 2px ;
 }
-.a1{
-    display: flex;
-}
-.a1 p{
-    padding-top:15px ;
-    padding-left: 10px;
-    font-size: 20px;
+.a p{
+    position: absolute;
+    top:22px;
+    left: 80px;
+    font-size: 22px;
+
 }
 .a11 p{
-    padding-top: 38px;
-    margin-left: -70px;
+    position: absolute;
+    top: 42px;
     font-size: 14px;
-}
-.a12 p{
-    padding-top: 38px;
-    margin-left: -99px;
-    font-size: 14px;
-}
-.a13 p{
-    padding-top: 38px;
-    margin-left: -138px;
-    font-size: 14px;
-}
-.og_review{
-    padding-top: 20px;
-    padding-left: 5px;
-    padding-right: 30px;
 }
 .og_review p{
+    position: relative;
+    left: 5px;
     font-size: 14px;
     color: rgb(58, 58, 58);
-    
+}
+.ban_3{
+    position: relative;
 }
 .ban_3 img{
     width: 100%;
@@ -294,18 +266,18 @@ header img{
 }
 .ban_3 h2{
     position: absolute;
-    top: 420vh;
+    top: 40px;
     left: 30px;
 }
 .ban_3 p{
     position: absolute;
-    top: 425vh;
+    top: 75px;
     left: 30px;
     color: rgb(39, 39, 39);
 }
 .btn-4{
     position: absolute;
-    top: 430vh;
+    top: 130px;
     left: 30px;
     width: 300px;
     text-align: left;
@@ -317,7 +289,7 @@ header img{
 }
 .btn-5{
     position: absolute;
-    top: 430vh;
+    top: 130px;
     left: 340px;
     font-size: 16px;
     padding: 15px 30px;
@@ -360,9 +332,6 @@ footer{
     font-size: 20px;
     color: grey;
 }
-
-
-
 .col-1{width:8.33% ;}
 .col-2{width:16.66% ;}
 .col-3{width:25% ;}
