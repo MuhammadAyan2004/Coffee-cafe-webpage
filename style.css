@@ -117,7 +117,6 @@ nav p{
     line-height: 1.5;
     background-color: #F1F0EE;
     box-shadow: 10px 10px 10px grey;
-
 }
 .sty:hover{
     width: 250px;
@@ -355,6 +354,7 @@ footer{
     padding: 25px 50px;
 }
 .container{
+    position: relative;
     padding-left:15px ;
     padding-right:15px ;
     margin-left:auto ;
@@ -362,197 +362,142 @@ footer{
 }
 @media(width<1200px){
     .ban_text{
-        position: absolute;
-        top: 16vh;
+        top: 20vh;
         left: 50%;
-        padding: 10px ;
-        align-items: left;
+    }
+    .ban_text h2{
+        font-size: 32px;
+    }
+    .ban_text h1{
+        font-size: 34px;
+    }
+    .btn-1{
+        font-size: 11px;
     }
     .sty {
         width: 220px;
-        height: 380px;
-        text-align: center;
-        padding-top: 10px;
-        margin-left: 0px;
-        border: 1px solid lightgray;
-        border-radius: 20px;
-        line-height: 1.5;
-        background-color: #F1F0EE;
-        box-shadow: 10px 10px 10px grey;
+        height: 355px;
+        margin-left: -40px;
     }
-    .shop{
-        width: 180px;
-        height: 220px;
+    .sty:hover{
+        width: 220px;
+        zoom: 110%;
     }
-    .btn-2{
+    .a{
+        width: 300px;
+        height: 200px;
+    }
+    .a p{
+        top:22px;
+        left: 80px;
+        font-size: 20px;
+    }
+    .a11 p{
+        top: 42px;
+        font-size: 14px;
+    }
+    .og_review p{
+        left: 5px;
+        padding-right: 10px;
         font-size: 13px;
-        padding: 9px;
-        border: 1px solid #30261C;
-        border-radius: 20px;
-        color: white;
-        background-color: #30261C;
     }
-    .banner2 p{
-        position: absolute;
-        top: 255vh;
-        left: 60px;
-        font-size: 46px;
+    .last h2{
+        padding-top: 50px;
+        margin-left: -40px;
+        font-size: 26px;
     }
-    .banner2 .btn-3{
-        position: absolute;
-        top: 275vh;
-        left: 60px;
-        font-size: 18px;
+    .last2 li{
+        font-size: 14px;
     }
-    .ban_3 h2{
-        position: absolute;
-        top: 375vh;
-        left: 30px;
-    }
-    .ban_3 p{
-        position: absolute;
-        top: 382vh;
-        left: 30px;
-    }
-    .btn-4{
-        position: absolute;
-        top: 390vh;
-        left: 30px;
-
-    }
-    .btn-5{
-        position: absolute;
-        top: 390vh;
-        left: 340px;
-    }
-    .container{
-        width: 1170px;
-    }
-
 }
 @media(width<980px){
     .ban_text{
-        position: absolute;
-        top: 14vh;
+        top: 12vh;
         left: 50%;
-        padding: 10px ;
-        align-items: left;
     }
     .ban_text h2{
-        font-size: 26px;
+        font-size: 20px;
     }
     .ban_text h1{
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .btn-1{
+        font-size: 10px;
     }
     .sty {
-        width: 175px;
-        height: 280px;
-        text-align: center;
-        padding-top: 10px;
-        margin-left: -35px;
+        width: 160px;
+        height: 250px;
+        margin-left: -40px;
+    }
+    .sty:hover{
+        width: 160px;
+        zoom: 110%;
+    }
+    .sty img {
+        width: 120px;
+        height: 120px;
     }
     .shop{
-        width: 120px;
-        height: 130px;
+        border-radius: 20px;
+        width: 220px;
+        height: 300px;
     }
     .sty h3{
-        font-size: 20px;
+        font-size: 18px;
+        padding-top: 0px;
     }
     .sty p{
         font-size: 10px;
     }
+    .sty1{
+        padding-top: 5px;
+        padding-right: 10px;
+    }
     .sty1 p{
+        padding-top: 5px;
         font-size: 16px;
     }
     .btn-2{
         font-size: 10px;
-        padding: 7px;
-        border: 1px solid #30261C;
-        border-radius: 20px;
-        color: white;
-        background-color: #30261C;
+        padding: 10px;
     }
-    .banner2 p{
-        position: absolute;
-        top: 209vh;
-        left: 40px;
-        font-size: 36px;
-    }
-    .banner2 .btn-3{
-        position: absolute;
-        top: 223vh;
-        left: 40px;
+    .btn-2:hover{
         font-size: 16px;
     }
-    
-    .ban_3 h2{
-        position: absolute;
-        top: 318vh;
+    .banner2-al p{
         left: 30px;
+        font-size: 36px;
     }
-    .ban_3 p{
+    .banner2-al .btn-3{
         position: absolute;
-        top: 323vh;
+        top: 120px;
         left: 30px;
+        font-size: 18px;
     }
-    .btn-4{
-        position: absolute;
-        top: 330vh;
-        left: 30px;
-
-    }
-    .btn-5{
-        position: absolute;
-        top: 330vh;
-        left: 340px;
-        font-size: 14px;
+    .btn-3:hover{
+        font-size:20px ;
     }
     .a{
         width: 250px;
-        height: 175px;
-        padding-top:10px ;
-        padding-left: 10px;
+        height: 180px;
+        margin-left: -12px;
     }
-    .b{
-        width: 250px;
-        height: 175px;
-        padding-top:10px ;
-        padding-left: 10px;
-    }
-    .c{
-        width: 250px;
-        height: 175px;
-        padding-top:10px ;
-        padding-left: 10px;
-    }
-    .a1 img{
-        width: 45px;
-        height: 45px;
-    }
-    .a1 p{
-        padding-top:8px ;
-        font-size: 17px;
+    .a p{
+        top:16px;
+        font-size: 18px;
+        margin-left: -10px;
     }
     .a11 p{
-        padding-top: 30px;
-        margin-left: -65px;
-        font-size: 11px;
-        color: grey;
-    }
-    .a12 p{
-        padding-top: 30px;
-        margin-left: -90px;
-        font-size: 11px;
-        color: grey;
-    }
-    .a13 p{
-        padding-top: 30px;
-        margin-left: -120px;
-        font-size: 11px;
-        color: grey;
+        top: 36px;
+        font-size: 12px;
     }
     .og_review p{
-        font-size: 10px;
+        padding-top:10px ;
+        font-size: 12px;
+    }
+    .a img{
+        width: 50px;
+        height: 50px;
     }
     .container{
         width: 940px;
@@ -571,14 +516,14 @@ footer{
         padding-top: 20px;
         margin-left: -180px;
     }
-    .social p{
-        padding-top: 60px;
+    .social{
+        position: absolute;
+        top: 25px;
+        right: 160px;
         font-size: 14px;
-        margin-left: -180px;
+        color: #F1F0EE;
+        padding: 0px 0px;
     }
-    .last-i p{
-        font-size: 20px;
-        padding-top: 0px;
-    }
+    
 
 }
